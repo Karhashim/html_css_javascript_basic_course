@@ -79,4 +79,4 @@ console.log(towns[-1]);*/
 const films = ["Back to the Future", "The Terminator", "Jurassic Park"];
 console.log(films[0]);
 films.push("Alien");
-console.log(films[films.length-1]);
+console.log(films[films.length-2]);
