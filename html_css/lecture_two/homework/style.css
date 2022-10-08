@@ -1,0 +1,35 @@
+body {
+    margin: 0; /*убрал внешние отступы во всем документе */
+    padding: 0;/*убрал внутрение отступы во всем документе */
+}
+.container {
+    width: 1920px; /* ширина страницы */
+    height: 2945px; /* высота страницы */
+    margin: 0 auto; /* блок container, а значит и вся страница располагается по центру строки экрана */    
+    background: rgb(114, 132, 42);
+}
+header {
+    display: flex;  /* чтобы можно было сместить потомков header (поместить по центру) */
+    margin: 33px 0; /* сместил header на 33 пикселя от верхнего края экрана */
+    background: red;
+}
+.top-menu{
+    margin: 0 auto; /* top-menu размещенно по центру строки экрана */
+    display: flex; 
+    background: gray;
+    align-items: center; /* логотип и текст верхнего меню расположены на одном уровне */
+}
+.top-menu-text {
+    width: 945px; /* задал ширину блока, чтобы можно было расположить тип клиента банка и адресса по разным сторонам */
+    display: flex; 
+    justify-content: space-between;
+    background: rgb(31, 157, 192);
+}
+.type-client-adress{
+   font-family: Montserrat;  /* вид шрифта верхнего меню */
+   font-size: 14px;    /* размер шрифта верхнего меню */
+   list-style-type: none; /* убрал маркеры списков */
+   display: flex; /* чтобы текст расположился в одну строку */
+   justify-content: space-around;
+   background: rgb(193, 68, 14);
+ }
