@@ -131,7 +131,3 @@ while (i < count) {
   console.log(text);
   i += 1;
 }*/
-const a = 10;
-let b = a < 12 && a > 8;
-console.log(b)
-
