@@ -124,11 +124,14 @@ for (let i = 0; i < arr.length; i += 1) {
   }
 }
 console.log(result);*/
-const text = "My text";
+/*const text = "My text";
 const count = 56;
 let i = 0;
 while (i < count) {
   console.log(text);
   i += 1;
-}
+}*/
+const a = 10;
+let b = a < 12 && a > 8;
+console.log(b)
 
