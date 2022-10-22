@@ -1,35 +1,52 @@
 body {
-    margin: 0; /*убрал внешние отступы во всем документе */
-    padding: 0;/*убрал внутрение отступы во всем документе */
+    margin: 0; /* убрал внешние отступы до границ экрана */
+    border: 1px solid;
 }
 .container {
     width: 1920px; /* ширина страницы */
     height: 2945px; /* высота страницы */
-    margin: 0 auto; /* блок container, а значит и вся страница располагается по центру строки экрана */    
-    background: rgb(114, 132, 42);
+    margin: 0 auto; /* блок container располагается по центру экрана */
+    border: 1px solid;
 }
 header {
+    border: 1px solid;
+    height: 119px; /* высота блока header */
+    margin: 21px 0; /* сместил header на 21 пиксель от верхней границы container */
     display: flex;  /* чтобы можно было сместить потомков header (поместить по центру) */
-    margin: 33px 0; /* сместил header на 33 пикселя от верхнего края экрана */
-    background: red;
+    /* align-items: center; logo и top-menu расположены на одном уровне */
 }
-.top-menu{
+.logo {
+    margin: 0 auto; /* logo размещено по центру экрана */
+    border: 1px solid;
+    width: 159px; /* ширина блока */
+    height: 26px; /* высота блока */
+}   
+.top-menu {
     margin: 0 auto; /* top-menu размещенно по центру строки экрана */
-    display: flex; 
-    background: gray;
-    align-items: center; /* логотип и текст верхнего меню расположены на одном уровне */
+    display: flex;/*  чтобы можно было сместить потомков top-menu (в одну строку) */
+    border: 1px solid;
+    width: 945px; /* ширина блока */
+    height: 19px; /* высота блока */
+    font-family: Montserrat;  /* вид шрифта */
+    font-size: 14px; /* размер шрифта */
+    display: flex;  /* чтобы можно было сместить потомков top-menu */
+    justify-content: space-between; /* тип клиента и адресса по разным сторонам */
 }
-.top-menu-text {
-    width: 945px; /* задал ширину блока, чтобы можно было расположить тип клиента банка и адресса по разным сторонам */
-    display: flex; 
-    justify-content: space-between;
-    background: rgb(31, 157, 192);
+.type-client {
+    border: 1px solid;
+    display: flex; /* чтобы текст расположился в одну строку */
+    list-style-type: none; /* убрал маркеры списков */
 }
-.type-client-adress{
-   font-family: Montserrat;  /* вид шрифта верхнего меню */
-   font-size: 14px;    /* размер шрифта верхнего меню */
-   list-style-type: none; /* убрал маркеры списков */
-   display: flex; /* чтобы текст расположился в одну строку */
-   justify-content: space-around;
-   background: rgb(193, 68, 14);
- }
+
+
+
+/* .top-menu-text { */
+    
+    
+    
+/* } */
+/* .type-client-adress{ */
+   
+   
+   /* justify-content: space-around; */
+ /* } */

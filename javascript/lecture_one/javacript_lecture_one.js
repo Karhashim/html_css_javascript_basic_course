@@ -1,4 +1,4 @@
-const nameOurPlanet = "Земля"; // Название нашей планеты
+/* const nameOurPlanet = "Земля"; // Название нашей планеты
 console.log(nameOurPlanet);
 let currentUserTime = "21:00"; // Текущее время пользователя
 console.log(currentUserTime);
@@ -9,4 +9,4 @@ console.log(cashPayment);
 let firstName = "Иван"; // Первое имя
 let secondName = "Иванович"; // Второе имя
 let thirdName = "Иванов"; // Третье имя
-console.log(firstName, secondName, thirdName);
+console.log(firstName, secondName, thirdName); */
