@@ -26,11 +26,11 @@ nameFilm: "name", */
 /* let a = 12.11111;
 console.log(a.toFixed(10)); */
 // console.log("Ivan".length);
-let a = 11111;
+let a = "aaAaa";
 const isUpperCase = (str, i) => {
   if (str[i] === str[i].toUpperCase()) {
     return true;
   } else
   return false;
 };
-console.log(isUpperCase(a, 2));
+console.log(isUpperCase(a, 2))
